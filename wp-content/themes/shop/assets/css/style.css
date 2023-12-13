@@ -1,0 +1,177 @@
+/* Main styles */
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100vh;
+    font:16px/24px 'Open Sans';
+}
+.wrap {
+    min-height: 100vh;
+    height: auto !important;
+    height: 100vh;
+    margin: 0 auto -80; 
+}
+.footer, .push {
+    height: 80;  
+}
+
+#cart-quantity {
+    font-weight:600;
+}
+
+/* Add styles for the categories menu */
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    padding: .3rem;
+  }
+
+.nav li {
+    margin: 0;
+    border-radius:4px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.nav a:hover {
+    color: #0056b3;
+}
+
+.nav .active {
+    background-color: #007bff;
+    color:#fff;
+}
+
+.nav .active a {
+    color:#fff;
+}
+
+/* Categories styles */
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 220px);
+    justify-content: space-between;
+    grid-gap: 40px;
+}
+
+.product {
+    height:320px;
+    position: relative;
+}
+
+.product h3 {
+    font-size:20px;
+    margin-top:15px;
+}
+
+.product img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+}
+
+.product .rating {
+    position: absolute;
+    background-color: #fff8;
+    font-size: 12px;
+    font-weight: 600;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+}
+
+.product .rating:after {
+    content: ' \22C6';
+}
+
+.product .btn {
+    position:absolute;
+    bottom:0;
+}
+
+a#prev {
+    margin-right: 15px;
+    width:
+}
+
+#page-num  {
+    width: 110px;
+    display: inline-block;
+}
+
+
+/* Single product styles */
+
+.carousel-item {
+    height:300px;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    height: 300px;
+    width: 100%;
+}
+
+a.carosel_control {
+    background-color: #000;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 118px;
+}
+
+.category-href {
+    display:block;
+    margin-bottom:1em;
+}
+
+.category-href:first-letter {
+    text-transform:capitalize;
+}
+
+#product-price {
+    font-size: 24px;
+}
+
+#product-price span {
+    color:#999;
+    text-decoration: line-through;
+    display:inline-block;
+    font-size:20px;
+    margin-left:12px;
+}
+
+#cart-button {
+    margin-top: 30px;
+}
+
+.navigation {
+    margin-top:40px;
+}
+
+#prev-button {
+    float:left;
+}
+
+#next-button {
+    float:right;
+}
+
+/* cart */
+
+.cart-table img {
+    max-height:50px;
+}
+
+.cart-table td {
+    vertical-align:middle;
+}
