@@ -1,4 +1,4 @@
-Implementation example of an online store on pure WordPress without using WooCommerce. 
+Implementation example of an online store on pure WordPress <i>without</i> using WooCommerce. 
 According to the requirements, SEO tags optimization is necessary.
 
 A theme and a plugin have been created with simple management from the admin panel.
